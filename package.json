@@ -14,6 +14,7 @@
     "@primer/react-brand": "^0.46.0",
     "antd": "^5.23.1",
     "mdb-react-ui-kit": "^9.0.0",
+    "node": "^18.20.6",
     "primereact": "^10.9.1",
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.8",
