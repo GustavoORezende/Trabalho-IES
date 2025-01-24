@@ -1,0 +1,11 @@
+export { default as RedM } from "./images/ufmgRed.svg";
+export { default as WhiteLogo } from "./images/ufmgWhite.svg";
+export { default as CarouselSlide1 } from "./images/Carousel1.jpg";
+export { default as CarouselSlide2 } from "./images/Carousel2.jpg";
+export { default as CarouselSlide3 } from "./images/Carousel3.jpg";
+export { default as Gestao } from "./images/Gestão.jpg";
+export { default as Mecanica } from "./images/Mecânica.jpg";
+export { default as Tecnology } from "./images/Tecnologia.jpg";
+export { default as Robot } from "./images/Robô.jpg";
+export { default as Eolic } from "./images/Eólica.jpg";
+export { default as Fusion } from "./images/Fusão.jpg";
