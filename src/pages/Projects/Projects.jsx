@@ -130,11 +130,6 @@ export default function Projects() {
           consolidação desse procedimento, que também é um dos maiores desafios
           da engenharia atual, passa pela gerência de um engenheiro de sistemas.
         </Texto>
-        <Titulo>Meio Ambiente:</Titulo>
-        <Texto>
-          Num aspecto global, a humanidade se preocupa com as questões
-          climáticas Métodos para sequestro de carbono ciclo do nitrogênio
-        </Texto>
       </Container>
     </>
   );
