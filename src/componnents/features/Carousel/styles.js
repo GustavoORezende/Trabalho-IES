@@ -6,6 +6,7 @@ export const StyledImage = styled.img`
   flex-direction: row;
   width: auto;
   height: auto;
+  margin: 10px;
 `;
 export const StyledCarousel = styled(Carousel)`
   width: 100%;
