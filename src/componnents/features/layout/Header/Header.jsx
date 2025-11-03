@@ -10,8 +10,15 @@ import {
   Links,
 } from "./styles";
 import { RedM } from "../../../../assets/index.js";
+import { useNavigate } from "react-router";
+
+
+
 
 export default function Header() {
+
+  const navigate = useNavigate();
+  
   return (
     <>
       <StyledHeader>
@@ -27,10 +34,10 @@ export default function Header() {
               <BottomText> Engenharia de Sistemas</BottomText>
             </SubSection>{" "}
             <Links>
-              <a href="#home">Home</a>
-              <a href="#about">Sobre</a>
-              <a href="#services">Serviços</a>
-              <a href="#contact">Contato</a>
+              <nav  onClick = {() => navigate("/Home")}>Home</nav>
+              <nav onClick = {() => navigate("/projects")}>Projetos</nav>
+              <nav >Serviços</nav>
+              <nav >Contato</nav>
             </Links>
           </Section>
         </Container>
